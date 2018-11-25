@@ -21,7 +21,7 @@ In UV/Image Editor, with an image open, open the Properties sidebar (N), and the
 An editable version is created with an incremented name, ie: CoolImage.png.001
 
 ### Node Editor
-In the Cycles Material Node Editor, select an image node with an image.
+In the Cycles Material Node Editor, select an image node that has an image.
 Use Operator Search (Space) to search for "Make Image Editable (NE)" and run it.
 The selected node's image will be changed to the editable version.
 
