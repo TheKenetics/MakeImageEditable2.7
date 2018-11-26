@@ -52,7 +52,7 @@ class MakeImageEditableIE(bpy.types.Operator):
 		return context.area.type == 'IMAGE_EDITOR'
 
 	def execute(self, context):
-		# Get active image in image editor
+		# Get active image from image editor
 		image = context.space_data.image
 		main(context, image)
 		return {'FINISHED'}
@@ -85,7 +85,7 @@ class MakeImageEditableNE(bpy.types.Operator):
 		return context.active_object.active_material.node_tree.nodes.active is not None and context.active_object.active_material.node_tree.nodes.active.type == "TEX_IMAGE" and context.active_object.active_material.node_tree.nodes.active.image is not None
 
 	def execute(self, context):
-		# Get active image in image editor
+		# Get image from image node
 		image = context.active_object.active_material.node_tree.nodes.active.image
 		image_copy = main(context, image)
 		context.active_object.active_material.node_tree.nodes.active.image = image_copy
