@@ -5,7 +5,8 @@ Blender addon for making saved Cycles image textures editable again.
 When you save an image to the hard disk in Blender, Cycles stops rendering any changes that you make to it with Texture Paint.  
 This addon makes an editable version of the image, so you can start editing again.
 
-NOTE: Always save before using this addon. If image is large, process can be slow.
+NOTE: Always save before using this addon.  
+If image is large, MakeImageEditable can be slow.
 
 ## Installation  
 ### Requirements  
