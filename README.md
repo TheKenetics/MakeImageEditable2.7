@@ -7,12 +7,15 @@ This addon makes an editable version of the image, so you can start editing agai
 
 NOTE: Always save before using this addon. If image is large, process can be slow.
 
-## Install
-
-    Download the python file (put it in a place where you can easily find it, like your desktop)
-    In Blender's settings, go to the addons tab
-    At the bottom, click "Install from File"
-    Find where you put the python file, select it, and click "Install from File"
+## Installation  
+### Requirements  
+Works on Windows, Mac, and Linux.
+Meant for Blender 2.79b, but may work on previous versions too.  
+### How to Install  
+Download the python file (put it in a place where you can easily find it, like your desktop)  
+In Blender's settings, go to the addons tab  
+At the bottom, click "Install from File"  
+Find where you put the python file, select it, and click "Install from File"  
 
 ## Using
 There are two ways to use this addon.  
